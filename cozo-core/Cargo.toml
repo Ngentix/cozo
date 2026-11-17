@@ -138,4 +138,5 @@ jieba-rs = "0.6.7"
 aho-corasick = "1.0.1"
 rust-stemmers = "1.2.0"
 fast2s = "0.3.1"
-swapvec = "0.3.0"
+# Ngentix fork: swapvec 0.3.0 with lz4_flex =0.11.7 (RUSTSEC-2026-0041).
+swapvec = { git = "https://github.com/Ngentix/swapvec", rev = "404906e3603886f8412ea5af242fe04188e81dfa" }
